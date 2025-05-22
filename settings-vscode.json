@@ -1,0 +1,66 @@
+{
+    // Workbench e Editor
+    "editor.fontFamily": "Fira Code Medium, monospace",
+    "editor.fontLigatures": true,
+    "editor.tabSize": 2,
+    "editor.detectIndentation": true,
+    "editor.minimap.enabled": false,
+    "explorer.confirmDelete": false,
+    "explorer.compactFolders": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmPasteNative": false,
+    "workbench.editorAssociations": {
+        "*.class": "default"
+    },
+    "workbench.colorTheme": "Min Dark",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "none",
+    "workbench.editor.enablePreview": false,
+    "files.trimTrailingWhitespace": true,
+    "security.workspace.trust.untrustedFiles": "open",
+
+    // Terminal
+    "terminal.integrated.env.linux": {},
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+
+    // Python
+    "python.defaultInterpreterPath": "${workspaceFolder}/venv/bin/python",
+    "python.terminal.activateEnvironment": true,
+    "python.analysis.extraPaths": [
+        ".src/",
+        ".venv/lib/python3.x/site-packages"
+    ],
+    "python.languageServer": "Pylance",
+    "python.pythonPath": "venv/bin/python3",
+    "python.testing.pytestEnabled": true,
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+
+    // JavaScript e TypeScript
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+    ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit",
+        "source.fixAll": "explicit"
+    },
+
+    // Git e GitHub Copilot
+    "github.copilot.enable": {
+        "*": true
+    },
+    "git.confirmSync": false,
+}

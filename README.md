@@ -6,6 +6,7 @@ Repositório contendo tutoriais rápidos para personalização do Ubuntu 24.04, 
 
 - 🔧 [Instalação do GRUB Customizer + Temas](./Grub-Customizer.md)
 - 🐚 [Instalação do ZSH + Oh My Zsh](./ZSH-OhMyZsh.md)
+- 🖥️ [Configurações VSCode](./settings-vscode.json)
 
 ---
 
